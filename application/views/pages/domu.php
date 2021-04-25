@@ -11,6 +11,14 @@
     body {
      background-color: lightblue;
     }
+    .card {
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.3s;
+    }
     </style>
     </head>
     <body>
@@ -18,17 +26,19 @@
         <h5 class="text-center"><b><u>AZPNEU  - PROČ VYBRAT NÁS?</u></b></h4>
         <p style=" padding: 20px 300px;">
         V autodílně AZpneu dáváme na první místo kvalitu. Pokud upřednostňujete opravdu spolehlivé, originální díly a profesionální přístup, přijeďte k nám. Pracujeme pro vás již od roku 1997.<br>
-        <h5 class="text-center"><p style="text-align: center">  <b>Provádíme</b></h5>
-        <div style="text-align: center">
-                    <li class="text-center" >Výměny autoskel</li>
+            <div class="row">
+                <div class="col-4">
+                </div>
+                    <div class="col-4">
+                    <div class="card">
+                        <div class="card-body"><div class="text-center"><h4> Provádíme </h4></div><br>  <li class="text-center" >Výměny autoskel</li>
                     <li class="text-center">Diagnostika motorů</li>
                     <li class="text-center">Seřízení geometrie</li>
-                    <li class="text-center">Pneuservis aut a kamionů</li>
-        
-                       
+                    <li class="text-center">Pneuservis aut a kamionů</li></div>
         
   
         </div>
+        <div><br>&nbsp</div>
         <h4 class="text-center"><b>Nejlepší autoservis v okolí Uherského Hradiště</b></h4>
         <p style=" padding: 20px 300px; display: flex; justify-content: center; align-items: center;">
         <img src=" <?php echo base_url('images/autoservis.jpg'); ?>" width="500"  alt="Autoservis"/>

@@ -16,6 +16,7 @@
         <style>
     body {
      text-align: center;
+     background-image: url(<?php echo base_url();?>images/cinini.jpg);
     }
     </style>
     </head>
